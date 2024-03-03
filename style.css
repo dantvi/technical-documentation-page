@@ -2,6 +2,7 @@
 
 html {
 box-sizing: border-box;
+scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,25 @@ body {
     font-size: 1.1rem;
 }
 
+nav {
+    z-index: 10;
+    display: block;
+    position: fixed;
+    padding: 15px;
+    width: 100vw;
+    background: rgb(192, 192, 192);
+    border-bottom: 1px solid;
+}
+
+a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 main {
+    padding-top: 110px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -25,3 +44,9 @@ article {
     margin: 15px;
 }
 
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+    main {
+        padding-top: 150px;
+    }
+}
