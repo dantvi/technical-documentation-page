@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
 box-sizing: border-box;
 }
@@ -5,4 +7,16 @@ box-sizing: border-box;
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: Raleway, sans-serif;
+    font-size: 1.1rem;
+}
+
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    font-family: Anta, sans-serif;
+    font-size: 3rem;
 }
