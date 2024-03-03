@@ -20,3 +20,8 @@ header {
     font-family: Anta, sans-serif;
     font-size: 3rem;
 }
+
+article {
+    margin: 15px;
+}
+
