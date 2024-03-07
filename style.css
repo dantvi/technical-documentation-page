@@ -3,6 +3,7 @@
 html {
 box-sizing: border-box;
 scroll-behavior: smooth;
+scroll-padding-top: 120px;
 }
 
 body {
@@ -13,9 +14,8 @@ body {
 }
 
 nav {
-    z-index: 10;
-    display: block;
     position: fixed;
+    top: 0;
     padding: 15px;
     width: 100vw;
     background: rgb(192, 192, 192);
@@ -30,7 +30,7 @@ a {
 }
 
 main {
-    padding-top: 110px;
+    padding-top: 120px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -46,6 +46,10 @@ article {
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
+    html {
+        scroll-padding-top: 150px;
+    }
+
     main {
         padding-top: 150px;
     }
